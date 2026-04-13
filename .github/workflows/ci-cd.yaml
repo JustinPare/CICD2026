@@ -55,6 +55,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
+          
 
       # ------------------------------------------------------------
       # Étape 4 : Déterminer le tag Docker et l'environnement k8s
